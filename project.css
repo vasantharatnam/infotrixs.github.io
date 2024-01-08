@@ -1,0 +1,87 @@
+
+
+
+
+body {
+    background-image: url(image.jpg);
+    background-repeat: no-repeat center center fixed;
+    background-size: cover;
+}
+
+#title {
+    color: black;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 2%;
+    font-family: 'Arvo', serif;
+}
+
+.container {
+    margin-top: 50px;
+    text-align: center;
+}
+
+#box {
+    font-size: 16px;
+    font-family: 'Arvo', serif;
+    font-weight: bold;
+    color: black;
+    padding: 15px;
+    max-height: 200px; /* Set a maximum height for the box content */
+    overflow-y: auto; /* Enable vertical scrolling if content exceeds the maximum height */
+
+}
+
+#box p {
+    margin: 0; /* Remove default margin for paragraphs */
+    margin-bottom: 10px; /* Add some space between paragraphs */
+}
+
+
+#location {
+    margin: 20px auto;
+}
+
+#city {
+    background-color: skyblue;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Arvo', serif;
+}
+
+#googleMap {
+    height: 300px;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 5px;
+}
+
+/* Add these styles to your existing CSS or create a new CSS file */
+
+.navbar {
+    background-color: #333; /* Set the background color of the navbar to black */
+}
+
+.navbar-brand,
+.navbar-nav .nav-link {
+    color: white !important; /* Set the text color of the brand and links to white */
+}
+
+/* Optional: Style the active link differently */
+.navbar-nav .nav-item.active .nav-link {
+    background-color: #333; /* Change the background color of the active link */
+    color: white; /* Change the text color of the active link */
+}
+
+#buttons {
+    margin-top: 10px;
+    text-align: center;
+    font-family: 'Arvo', serif;
+    font-size: 25px;
+    display:contents;
+
+}
+
